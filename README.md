@@ -6,21 +6,26 @@ The project described here involves the development of a prototype conversationa
 This project was carried out as part of a work placement. It combines data analysis, rigorous validation of interactions with the language model, and a conversational interface connected to a local LLM via Ollama. Following the steps below will help you set up the environment, run the project and understand how it works.
 
 /Setting everything up/
-Step 1: Software to download before starting the project
+
+Step 1: Download PMData
+- As the Data base was to heavy for gitbub, you will need to download it from the following link: "https://datasets.simula.no/pmdata/"
+- To run the project, place the PMData dataset in the project root: "AI_Assistant_Project_AK/PMData/"
+
+Step 2: Software to download before starting the project
 
 - Python 3.10 or later
 - Visual Studio Code, or any coding environment of your choice
 - The following Python libraries: LangGraph, pydantic, pandas, numpy, matplotlib, streamlit, openai, pytest
 - To download the libraries, use the following command in the terminal: ‘pip install langgraph pydantic pandas numpy matplotlib streamlit openai pytest’
 
-Step 2: Download the project files from this repository 
+Step 3: Download the project files from this repository 
 - "Clone this repository, or download it as a ZIP and extract it:" #A voir comment je le rends
 
-Step 3: Connect to the language model (Ollama)
+Step 4: Connect to the language model (Ollama)
 - If you are not connected to the LifeSTech wifi you need to use a VPN following the instructions in the link "(https://pages.lst.tfo.upm.es/it/services/lst/vpn/)"
 - If you are connected to the LifeSTech wifi, you can run the project directly
 
-Step 4 : Run the project
+Step 5 : Run the project
 
 - Open the terminal and navigate to the project directory
 - Run the following command to : 'streamlit run app.py' it will open a webpage with the AI assistant
